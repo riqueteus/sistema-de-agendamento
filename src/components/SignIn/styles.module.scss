@@ -1,0 +1,26 @@
+.signInButton {
+    height: 3rem;
+    border-radius: 3rem;
+    background: orange;
+    border: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 1rem 2rem;
+
+    font-weight: bold;
+
+    .buttonIcon {
+        width: 2rem;
+        height: 2rem;
+        margin-right: 1rem;
+    }
+
+    transition: filter 0.2s;
+
+    &:hover {
+        filter: brightness(0.8);
+    }
+}

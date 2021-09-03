@@ -1,13 +1,14 @@
 import Head from 'next/head';
-import { Hello } from '../components/Hello';
+import { SignIn } from '../components/SignIn/SignIn';
 
 export default function Home() {
   return (
     <>
       <Head>
         <title>Início | Agendamento FCamara</title>
-        <Hello />
       </Head>
+      
+      <SignIn />
     </>
   )
 }
