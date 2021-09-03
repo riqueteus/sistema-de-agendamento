@@ -7,7 +7,7 @@ export default function Home() {
       <Head>
         <title>Início | Agendamento FCamara</title>
       </Head>
-      
+
       <SignIn />
     </>
   )
